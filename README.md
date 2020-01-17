@@ -16,8 +16,10 @@ This program fetches data from backend api and displays the data in table format
 
 ## Setup
 
-First you have to get the backend server running. For that go to the folder front-end-task-rest-api and in the command line type the following:-
+First you have to get the backend server running. For that first you would have to clone the backend from https://gitlab.com/resonanz/frontend-task-rest-api. Then go to the folder front-end-task-rest-api and in the command line type the following:-
 `npm run dev`
+
+Now the backend server will be running on localhost port 8081.
 
 Then inside the src folder of resonanz, type the following command in command line:-
 `npm start`
