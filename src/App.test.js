@@ -1,9 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+import REACTDOM from 'react-dom';
 import App from './App';
+import Datalist from './datalist'
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('Datalist-test', () => {
+  const div= document.createElement("div");
+  REACTDOM.render(<Datalist/>,div)
 });
